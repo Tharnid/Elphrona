@@ -41,3 +41,7 @@ Dictionary.random_word
 *** |> Pipelines make your code more functional ***
 
 @Modules4Attribute
+
+a = [2, 3]
+b = [ 1 | a ]
+
