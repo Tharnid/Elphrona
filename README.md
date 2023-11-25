@@ -37,3 +37,7 @@ Dictionary.random_word
 
   git config --global user.email "you@example.com"
   git config --global user.name "Your Name"
+
+*** |> Pipelines make your code more functional ***
+
+@Modules4Attribute
