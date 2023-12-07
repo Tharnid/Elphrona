@@ -45,3 +45,15 @@ Dictionary.random_word
 a = [2, 3]
 b = [ 1 | a ]
 
+signature of function using @spec
+
+@type = used to define a type
+
+
+## Dialyzer
+
+
+
+## Dialyxir
+
+mix deps.get
