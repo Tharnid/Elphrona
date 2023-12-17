@@ -1,5 +1,13 @@
 defmodule Hangmans.Impl.Game do
     
+    # type for a structure
+    @type t :: %Hangmans.Impl.Game{
+        turns_left: integer,
+        game_state: Hangmans.state,
+        letters: list(String.t),
+        used: MapSet.t(String.t)
+    }
+
     defstruct(
         turns_left: 6,
         game_state: :initializing,
