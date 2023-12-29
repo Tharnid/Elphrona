@@ -113,6 +113,15 @@ Elixir tries make the left side equal to the right side
   rebind conv by putting it as a variable
   conv = Map.put(conv, :resp_body, "Bears")
 
+  .exs = script
+
+  Find failing tests as quickly as possible....test as little code as possible
+
+  test implementation and not API...don't want public API specify the word
+  
+
+
+
   
 
 
