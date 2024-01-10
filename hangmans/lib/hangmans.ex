@@ -19,7 +19,6 @@ defmodule Hangmans do
   # end
   
   @spec make_move(game, String.t) :: { game, Type.tally } # returns a tuple of game and tally
-  def make_move(_game, _guess) do
-  
-  end
+  defdelegate make_move(game, guess), to: Game # delegate function to another another module
+
 end
